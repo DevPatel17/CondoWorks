@@ -1,9 +1,10 @@
 # CondoWorks
 CondoWorks Coop Test 
 
-## In order to run program first download:
+## In order to run program first install:
 
 npm i puppeteer
+
 
 
 
