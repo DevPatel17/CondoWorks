@@ -15,7 +15,7 @@ data = data.toString();
         accountNo: data.match(/\d+ - \d+/m)[0].split(" - ")[1].trim(),
         billPeriod: data.match(/[a-z]{3}\s\d{1,2},\s\d{4}\s[a-z]{2}\s[a-z]{3}\s\d{1,2},\s\d{4}/i)[0].trim(),
         billDate: data.match(/[a-z]{3}\s\d{1,2},\s\d{4}/i)[0].trim(),
-        newCharges: data.match(/[A-Z][a-z]{4}\s[a-z]{3}\s[a-z]{7}\s{30}\$\d{1,3},\d{0,3}.\d{0,2}/)[0].substr(47).trim(), ////// TODO: Fix this, not finding the right number!      
+        newCharges: data.match(/[A-Z][a-z]{4}\s[a-z]{3}\s[a-z]{7}\s{30}\$\d{1,3},\d{0,3}.\d{0,2}/)[0].substr(47).trim(), 
     };
    
 // {\$\d,\d{3}.\d{2}/),
