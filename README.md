@@ -7,5 +7,7 @@ npm i puppeteer
 
 
 
+For Scraper.js, invoice file will be downloaded to working directory (location will be displayed in console). 
+
 
 
